@@ -13,14 +13,14 @@
 ```bash
 
 > mvn -DarchetypeGroupId=com.hiskasoft.maven \
-       -DarchetypeArtifactId=antlr4-maven-archetype \
-       -DarchetypeVersion=0.1 \
-       -DgroupId=com.yracnet.enginer \
-       -DartifactId=x6 \
-       -Dversion=1.0.0 \
-       -Dpackage=com.yracnet.enginer.x6 \
-       -DfileExtension=lang \
-       -DgrammarName=Language \
-       archetype:generate
+      -DarchetypeArtifactId=antlr4-maven-archetype \
+      -DarchetypeVersion=0.1 \
+      -DgroupId=com.yracnet.enginer \
+      -DartifactId=x6 \
+      -Dversion=1.0.0 \
+      -Dpackage=com.yracnet.enginer.x6 \
+      -DfileExtension=lang \
+      -DgrammarName=Language \
+      archetype:generate
 
 ```
